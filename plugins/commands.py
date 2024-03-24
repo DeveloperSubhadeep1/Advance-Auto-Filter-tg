@@ -23,13 +23,16 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/VJ_Bots')
+                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/updatechannelfordevil')
+            ],
+            # [
+            #     InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
+            # ],
+            [
+                InlineKeyboardButton('👨🏻‍💼 Owner 👨🏻‍💼',url='https://t.me/subhadeep900')
             ],
             [
-                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
-            ],
-            [
-                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/vjbots_bot')
+                InlineKeyboardButton('👨🏻‍💻 CEO 👨🏻‍💻',url='https://t.me/Ripam07')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -49,16 +52,15 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Group 🔍', url='https://t.me/vJ_botz'),
+                '🔍 Group 🔍', url='https://t.me/searchyourmovie69'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/VJ_Bots')
+                '🤖 Updates', url='https://t.me/updatechannelfordevil')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
-        ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@Tech_VJ')
-        ]] 
+        ]
+        #[InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',url=f'https://youtube.com/@Tech_VJ')]
+        ] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -101,16 +103,15 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🏆 Group 🏆', url='https://t.me/neha_movie_request'),
+                '🏆 Group 🏆', url='https://t.me/searchyourmovie69'),
             InlineKeyboardButton(
-                '📣 Updates 📣', url='https://t.me/vj_bots')
+                '📣 Updates 📣', url='https://t.me/updatechannelfordevil')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
-        ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@Tech_VJ')
-        ]]
+        ], 
+        #[InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',url=f'https://youtube.com/@Tech_VJ')]
+        ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -159,10 +160,12 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/+Ui6_6K_JqbUzNGY9'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/updatechannelfordevil')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          [InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009"),
+                           InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009")
+                          ]
                          ]
                         ]
                     )
@@ -177,10 +180,12 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/+Ui6_6K_JqbUzNGY9'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/updatechannelfordevil')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          [InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009"),
+                           InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009")
+                          ]
                          ]
                         ]
                     )
@@ -246,12 +251,13 @@ async def start(client, message):
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                         [
-                          InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                   [
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/+Ui6_6K_JqbUzNGY9'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/updatechannelfordevil')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          [InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009"),
+                           InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009")
+                          ]
                          ]
                         ]
                     )
@@ -290,11 +296,12 @@ async def start(client, message):
         protect_content=True if pre == 'filep' else False,
         reply_markup=InlineKeyboardMarkup(
             [
-                         [
-                          InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/+Ui6_6K_JqbUzNGY9'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/updatechannelfordevil')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          [InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009"),
+                           InlineKeyboardButton("👨🏻‍💼 Bᴏᴛ Oᴡɴᴇʀ 👨🏻‍💼", url="t.me/subhadeep009")
+                          ]
                          ]
                         ]
                     )

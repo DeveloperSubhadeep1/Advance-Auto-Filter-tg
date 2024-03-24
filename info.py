@@ -13,25 +13,25 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_Bot')
-API_ID = int(environ.get('API_ID', '20389440'))
-API_HASH = environ.get('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6564513574:AAF1dwXAmMGbLFEIyb_eHGow9Q_561bWf2U')
+API_ID = int(environ.get('API_ID', '27972068'))
+API_HASH = environ.get('API_HASH', '6e7e2f5cdddba536b8e603b3155223c1')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6976240502:AAH4Rtfw0DPUT47kznwoxRj3ewkj_8Kzyhw')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/c344b7987e488ffd78926.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/4411771cbdd03bbd6a894.jpg https://graph.org/file/4411771cbdd03bbd6a894.jpg https://graph.org/file/ccc3d5862669c70aca037.jpg https://graph.org/file/a8403656c2a7dc73e7746.jpg https://graph.org/file/027cdca40400c30443557.jpg https://graph.org/file/d36ab8ce21188a0b56a53.jpg https://graph.org/file/aab53eb0947e7185cda09.jpg https://graph.org/file/6b68f3eebb1446682ab46.jpg https://graph.org/file/842605d84aac5c1111936.jpg https://graph.org/file/dc5826e69f63c8ba13dc2.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6168162777').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001722984461').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5546051083 5256724194').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5546051083 5256724194').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL','-1002024071739')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -42,9 +42,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vjbotsaban")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbots')
+DATABASE_URI = environ.get('DATABASE_URI', ""mongodb+srv://test1:test1@cluster0.5vutvml.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
@@ -54,11 +54,11 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VJ_Bots')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VJ_Bots')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Ui6_6K_JqbUzNGY9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Ui6_6K_JqbUzNGY9')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001623633000'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002127050854'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+Ui6_6K_JqbUzNGY9')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)

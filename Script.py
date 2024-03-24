@@ -7,8 +7,8 @@ If You Want To Create This Type Of Bot Contact Us
 🔗 For More Information Contact @VJbots_bot 🔗</b>"""
 
     ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/YourSearchVJbot><b>Movie Search Bot</b></a>\n
-👑 Oᴡɴᴇʀ : <a href=https://t.me/vjbots_bot><b>🏆 Vijay 🏆</b></a>\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/vj_Bots><b>⚡ VJ Bots ⚡</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=https://t.me/subhadeep900><b>🏆 Subhadeep 🏆</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/updatechannelfordevil><b>⚡ Update Channel ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
@@ -16,8 +16,8 @@ If You Want To Create This Type Of Bot Contact Us
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ✅ - This Bot Is An Private Project
-✅ - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/VJ_Bots">⚡ ʜᴇʀᴇ ⚡</a>
-Dᴇᴠᴇʟᴏᴘᴇʀ:</b>"""
+# ✅ - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/VJ_Bots">⚡ ʜᴇʀᴇ ⚡</a>
+# Dᴇᴠᴇʟᴏᴘᴇʀ:</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -109,9 +109,9 @@ Aᴅᴅᴇᴅ Bʏ - {}"""
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
-    ALRT_TXT = """🔆 Hey {}, Its Not For You❗"""
+    ALRT_TXT = """🤗 Hey {}, Its Not For You❗"""
 
-    OLD_ALRT_TXT = """🔆 Hey {}, ❗Link Expired, Please Request Again ♻"""
+    OLD_ALRT_TXT = """🤗 Hey {}, ❗Link Expired, Please Request Again 🔁"""
 
     CUDNT_FND = """<b><i>⚠ No Results, Please Follow Request Tips!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://te.legra.ph/Neha-01-21-2)</i></b>"""
 
@@ -128,8 +128,8 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Anjel Neha
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/vjbots_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Subhadeep
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/subhadeep900'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 Check Your Spelling, Release Date, If You Still Don't Get The Movie Then Type Like This...
@@ -161,12 +161,12 @@ Owner Will Update The Movie Within 24Hour"""
     NORSLTS = """
 ★ #Auto_Request ★
 
-🔆 <b>Request</b> : 🎗️`{}`🎗️
+🤗 <b>Request</b> : 🎗️`{}`🎗️
 ♦️ <b>Requested By : {}</b>
 ♦️ <b>User ID</b> : `{}` """
 
     CAPTION = """
-<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJᴏɪɴ Nᴏᴡ: [⚡ VJ Bots⚡](https://t.me/VJ_Bots)</b>"""
+<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJᴏɪɴ Nᴏᴡ: [⚡ Search Your movie Update⚡](https://t.me/updatechannelfordevil)</b>"""
 
     IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝓟𝓵𝓸𝓽  :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title}"""
 
